@@ -1,0 +1,53 @@
+.price{
+    color: rgb(33, 201, 33);
+    font-size: 20px;
+}
+.Cart{
+    background-color: rgb(200, 200, 29);
+    border-color: rgb(200, 200, 29);
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: box-shadow 0.25s;
+    transition:  background-color 0.25s,
+    color 0.25s;
+
+}
+.Cart:hover {
+    box-shadow: 5px 5px 5px black;
+    background-color:  rgb(200, 200, 29);
+    color: white;
+    opacity: 0.8;
+}
+.Cart:active{
+    opacity: 0.5;
+}
+.Buy{
+    background-color: rgb(197, 132, 13);
+    border-color: rgb(197, 132, 13);
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition:  background-color 0.25s,
+    color 0.25s;
+    transition: box-shadow 0.25s;
+}
+.Buy:hover {
+    background-color:  rgb(197, 132, 13);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0.8;
+}
+.Buy:active{
+    opacity: 0.5;
+}
